@@ -3,5 +3,7 @@ def list = [];
 list =[1,2,3];
 list.add(4); //add method
 list.pop(); //remove last item
-test1 = list.get(1);
-println(test1);
+test1 = list.get(1);// get the 2nd element first would be 0
+test2 = list.contains(3)
+println(test1,test2);
+
