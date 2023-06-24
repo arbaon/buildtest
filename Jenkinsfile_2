@@ -1,0 +1,7 @@
+//method tests
+def list = [];
+list =[1,2,3];
+list.add(4); //add method
+list.pop(); //remove last item
+test1 = list.get(1);
+println(test1);
