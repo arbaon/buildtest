@@ -1,0 +1,12 @@
+//OOP testing
+
+class person {
+
+    String name
+    int ID
+
+}
+person jack = new person()
+jack.name = 'Jack'
+jack.ID = 1
+
