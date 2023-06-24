@@ -6,7 +6,7 @@ list.pop() //remove last item
 test1 = list.get(1) // get the 2nd element first would be 0
 test2 = list.contains(3)
 list << 4
-list.minus(3)
+list = list.minus(3)//did not remove
 println(test1 + ' test concatenate') //concatenate var + string
 println(test1 + String.valueOf(test2)) //concatentate var + boolean
 println(list)
