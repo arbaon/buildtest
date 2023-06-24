@@ -8,8 +8,11 @@ test2 = list.contains(3)
 list << 4 //append 4 to the list
 list = list.minus(4)// this works takes away 4th element
 list = list.plus([5, 6])//this worked to append a range to the list
-list = list.reverse()
-list.remove(0)
+list = list.reverse() //reverse the order
+list.remove(0) // remove first element
+var1 = list.size() // tet the list
+list = list.sort() //sort the list
 println(test1 + ' test concatenate') //concatenate var + string
 println(test1 + String.valueOf(test2)) //concatentate var + boolean
 println(list)
+println(var1)
